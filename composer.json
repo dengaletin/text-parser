@@ -1,0 +1,25 @@
+{
+  "name": "dengaletin/text-parser",
+  "license": "",
+  "type": "library",
+  "description": "",
+  "require": {
+    "phpunit/phpunit": "^8.3",
+    "guzzlehttp/guzzle": "^6.3",
+    "ext-json": "*"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit"
+  },
+  "authors": [
+    {
+      "name": "Denis Galetin",
+      "email": "den@galetin.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "./app"
+    }
+  }
+}
